@@ -15,7 +15,7 @@ public class JavaHomeworksAndraMariaPuscas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("helo");
+        System.out.println("hello");
     }
     
 }

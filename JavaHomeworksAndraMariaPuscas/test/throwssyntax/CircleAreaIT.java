@@ -33,8 +33,8 @@ public class CircleAreaIT {
     @Test
     public void testCircleArea() throws Exception {
         System.out.println("circleArea");
-        double radius = 0.0;
-        double expResult = 0.0;
+        double radius = 3.0;
+        double expResult = 28.274333882;
         double result = CircleArea.circleArea(radius);
         assertEquals(expResult, result, 0.0);
     }

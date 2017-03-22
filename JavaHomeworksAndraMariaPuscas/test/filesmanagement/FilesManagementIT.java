@@ -25,11 +25,11 @@ public class FilesManagementIT {
 
         FilesManagement instance = new FilesManagement(file);
 
-        String expResult = "ccc";
+        String expResult = "aaa";
         try {
             FileReader fr = new FileReader("/home/andra/Desktop/file2.txt");
             BufferedReader br = new BufferedReader(fr);
-
+            instance.writeInFile("/home/andra/Desktop/file2.txt");
             String result = br.readLine();
             assertEquals(expResult, result);
         } catch (IOException e) {
@@ -46,7 +46,18 @@ public class FilesManagementIT {
         System.out.println("deleteFromFile");
         String file = "";
         FilesManagement instance = new FilesManagement(file);
-        instance.deleteFromFile("/home/andra/Desktop/file3.txt");
+        String expResult = null;
+        try {
+            FileReader fr = new FileReader("/home/andra/Desktop/file3.txt");
+            BufferedReader br = new BufferedReader(fr);
+            instance.deleteFromFile("/home/andra/Desktop/file3.txt");
+            String result = br.readLine();
+            assertEquals(expResult, result);
+        }
+        catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+        
     }
 
     /**

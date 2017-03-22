@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
  * @author andra
  */
 public class ValidationIT {
-    
+
     public ValidationIT() {
     }
 
@@ -28,8 +28,7 @@ public class ValidationIT {
         int expResult = 5;
         int result = instance.parseAge(age);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+
     }
 
     /**
@@ -40,8 +39,7 @@ public class ValidationIT {
         System.out.println("main");
         String[] args = null;
         Validation.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+
     }
-    
+
 }

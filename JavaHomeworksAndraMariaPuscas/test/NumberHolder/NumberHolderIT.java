@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Calculator;
+package NumberHolder;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -12,21 +12,15 @@ import static org.junit.Assert.*;
  *
  * @author andra
  */
-public class CalculatorIT {
+public class NumberHolderIT {
     
-    public CalculatorIT() {
+    public NumberHolderIT() {
     }
 
-    /**
-     * Test of main method, of class Calculator.
-     */
     @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        Calculator.main(args);
+    public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
     
 }

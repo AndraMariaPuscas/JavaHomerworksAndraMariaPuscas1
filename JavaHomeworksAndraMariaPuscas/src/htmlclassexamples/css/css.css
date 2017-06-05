@@ -1,0 +1,7 @@
+input[type=text]:focus {
+    background: lightblue;
+    width: 500px;
+}
+thead {color:red;}
+tbody {color:blue;}
+tfoot {color:green;}

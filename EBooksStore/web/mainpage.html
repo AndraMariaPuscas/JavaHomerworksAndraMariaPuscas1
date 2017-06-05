@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>eBooks Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/eBooksStoreCSS.css">
+    </head>
+    <body>
+        Welcome to eBookStore!
+        <div class="ebookstorebutton">
+            
+           <button class="ebookstorebutton" onclick="functie()">Manage</button>
+            <button class="ebookstorebutton">Orders</button>
+            <button class="ebookstorebutton">Log Out</button>
+            
+        </div>
+        <script>
+            function functie() {
+                document.getElementById("ptscript").innerHTML= '<object type="type/html" data="manageUsersPage.html" ></object>';
+               
+            }
+        </script>
+        
+        <div id="ptscript" >
+        </div>
+
+    </body>
+</html>

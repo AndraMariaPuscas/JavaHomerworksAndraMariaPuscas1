@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/currencyDenominations.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE root SYSTEM "currencyDenominations.dtd">
+
+    <root>
+    ...
+    </root>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT root (RON|EUR|USD)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT RON (moneda0)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT moneda0 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT EUR (moneda1)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT moneda1 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT USD (moneda2)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT moneda2 (#PCDATA)>

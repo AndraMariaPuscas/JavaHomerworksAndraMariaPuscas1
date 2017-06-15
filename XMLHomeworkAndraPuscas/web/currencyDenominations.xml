@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+   
+    <RON>
+        
+        <moneda0>1 Ban</moneda0>
+        <moneda0>5 Bani</moneda0>
+        <moneda0>10 Bani</moneda0>
+        <moneda0>50 Bani</moneda0>
+        <moneda0>1 Leu</moneda0>
+        <moneda0>5 Lei</moneda0>
+        <moneda0>10 Lei</moneda0>
+        <moneda0>50 Lei</moneda0> 
+        <moneda0>100 Lei</moneda0>
+        <moneda0>200 Lei</moneda0>
+        <moneda0>500 Lei</moneda0>
+    </RON>
+   
+    <EUR>
+        <moneda1>1 Cent</moneda1>
+        <moneda1>2 Centi</moneda1>
+        <moneda1>5 Centi</moneda1>
+        <moneda1>1 Euro</moneda1>
+        <moneda1>2 Euro</moneda1>
+        <moneda1>5 Euro</moneda1>
+        <moneda1>10 Euro</moneda1>
+        <moneda1>20 Euro</moneda1>
+        <moneda1>50 Euro</moneda1>
+        <moneda1>100 Euro</moneda1>
+        <moneda1>200 Euro</moneda1>
+        <moneda1>500 Euro</moneda1>
+    </EUR>
+   
+   <USD>
+        <moneda2>1 Cent</moneda2>
+        <moneda2>5 Centi</moneda2>
+        <moneda2>10 Centi</moneda2>
+        <moneda2>25 Centi</moneda2>
+        <moneda2>50 Centi</moneda2>
+        <moneda2>1 Dolar</moneda2>
+        <moneda2>1 Dolar</moneda2>
+        <moneda2>2 Dolari</moneda2>
+        <moneda2>5 Dolari</moneda2>
+        <moneda2>10 Dolari</moneda2>
+        <moneda2>20 Dolari</moneda2>
+        <moneda2>50 Dolari</moneda2>
+        <moneda2>100 Dolari</moneda2>
+    </USD>
+   
+</root>

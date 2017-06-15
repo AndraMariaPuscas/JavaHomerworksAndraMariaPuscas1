@@ -1,0 +1,320 @@
+/*
+Copyright gheorgheaurelpacurar
+*/
+/* 
+    Author     : gheorgheaurelpacurar
+    Copyright  : gheorgheaurelpacurar
+*/
+body {
+    background:url(../img/eBooksStoreBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Verdana";
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center; 
+}
+
+h3 {
+    color: whitesmoke; 
+    text-align: center;
+}
+
+table{
+    border-spacing: 0 0px;
+    background-color: whitesmoke;
+    
+}
+
+.tablecentered{
+    border-spacing: 0 0px;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: whitesmoke;    
+}
+.tablewithborder {
+    border-width: 1px;
+    border-spacing: 0px;
+    border-radius: 1px;
+    background-color: lightgrey;
+    font-size: 12px;
+    border-style: solid;
+    border-color: darkslategrey;
+    width: 100%;
+    /*column-width: auto;*/
+    font-style: normal;
+    
+    margin-left:auto; 
+    margin-right:auto;
+    padding: 1% 1%;
+    
+}
+
+.tablecenterdwithborder {
+    border-width: 1px;
+    border-spacing: 0 0px;
+    border-radius: 0.5em;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: whitesmoke;
+    font-size: 12px;
+    border-style: solid;
+    border-color: darkgrey;
+    table-layout: fixed;
+    
+}
+
+.tablewithoutborder{
+    border-spacing: 0 0px;
+    font-size: 8px;
+    background-color: grey;
+    margin-right:auto;
+    border-left: red; 
+    border-radius: 0.5em;
+    width: 60%;
+    empty-cells: hide; 
+}
+.table {
+    width: 100%;
+    font-size:12px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-style: ridge;
+    vertical-align: central;
+    border-color: black;
+    border-collapse: collapse;
+    
+}
+
+.thc{
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lightgrey;
+    color: black;
+    font-size: 12px;
+    border-style: ridge;
+}
+td{
+    text-align: center;
+    vertical-align: top;
+    color:black;
+    font-weight: bold;
+}
+
+.td1{
+    text-align: center;
+    vertical-align: top;
+    color:black;
+    font-weight: bold;
+    border-style: ridge;
+    
+}
+td.tdl td {
+    text-align: left;
+    vertical-align: top;
+}
+.tdc{
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lightgrey;
+    color: black;
+    font-size: 12px;
+    width: 5%
+}
+
+.tdc1{
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lightgrey;
+    color: black;
+    font-size: 12px;
+    width: 5%;
+    border-style: ridge
+}
+
+.tdcred{
+    text-align: center;
+    vertical-align: middle;
+    background: indianred;
+    color: whitesmoke;
+}
+.tdcgreen{
+    text-align: center;
+    vertical-align: middle;
+    background: forestgreen;
+    color:wheat;
+}
+
+.trcred{
+    text-align: center;
+    vertical-align: middle;
+    background: indianred;
+    color: whitesmoke;
+}
+
+.trcgreen{
+    text-align: center;
+    vertical-align: middle;
+    background: forestgreen;
+    color:wheat;
+}
+.ebookstorebutton {
+    background-color: grey; 
+    /* border: grey;
+     border-style: solid;*/
+    color: white;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid activeborder;
+    float: left;
+    border-style: outset;
+    display: inline;
+
+}
+
+button{
+    padding:20px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-style: ridge;
+    border-color: grey;
+    display: ruby ;
+}
+.ebooksstorebutton:hover {
+    background-color: darkgray; 
+    border: whitesmoke;
+    border-style: solid;
+    color: whitesmoke;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3em;
+}
+input[type=text] {
+    background: lightyellow;
+    width: 100px;
+}
+
+input[type=password] {
+    background: lightyellow;
+    width: 100px;
+}
+
+.inputlarge[type=text] {
+    width: 120px;
+}
+input[type=datetime] {
+    width: 120px;
+}
+.inputred[type=text] {
+    width: 120px;
+    background: red;    
+}
+.inputgreen[type=text] {
+    width: 120px;
+    background: greenyellow;    
+}
+th{
+    vertical-align: bottom;
+    height: fit-content;
+    width: fit-content;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;    
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.verticalText
+{
+    text-align: left;
+    vertical-align: bottom;
+    margin: 1px;
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    text-align: left;
+    vertical-align: text-bottom;
+    white-space: nowrap;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);                 
+}
+.textareared{
+    background-color: red; 
+    border: red;
+    border-style: solid;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 1em;
+}
+.textareagreen{
+    background-color: aquamarine; 
+    border: aquamarine;
+    border-style: solid;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 1em;
+}
+.textareamessage{
+    background-color: red; 
+    border: red;
+    border-style: solid;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 1em;
+}
+.pic-container {
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+}
+.tab-container {
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+}
+select{
+    background: transparent;
+    width: 100px;
+    padding: 0px;
+    font-size: 12px;
+    line-height: 1;
+    height: 23px;
+}
+
+div {
+    width: 100%;
+     display:inline-table
+}
+
+object{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+

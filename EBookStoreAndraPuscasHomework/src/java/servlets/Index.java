@@ -73,7 +73,7 @@ public class Index extends HttpServlet {
                 // create a variable to keep the authenticated user
                 request.getSession().setAttribute("validUser", true);
                 // delegate to JSP
-                request.getRequestDispatcher("./mainpage.html").forward(request, response);
+                request.getRequestDispatcher("./eBooksStoreMainPage.jsp").forward(request, response);
             }
             else
             {

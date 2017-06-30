@@ -17,7 +17,6 @@
     <body>
         <c:set var="activePage" value="index" scope="session"></c:set>
         <h3>Welcome to Electronic Books Store</h3>  
-        <%-- <hr> --%>
         <!-- delegation of authentication and authorization is done to associated Servlet -->
         <table class="tablecenterdwithborder">
             <form action="${pageContext.request.contextPath}/index" method="POST">

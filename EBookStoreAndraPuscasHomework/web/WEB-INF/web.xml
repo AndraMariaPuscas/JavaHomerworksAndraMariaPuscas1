@@ -4,9 +4,57 @@
         <servlet-name>index</servlet-name>
         <servlet-class>servlets.Index</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>eBooksStoreAdminEBooks</servlet-name>
+        <servlet-class>servlets.eBooksStoreAdminEBooks</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eBooksStoreAdminUserRolesServlet</servlet-name>
+        <servlet-class>servlets.eBooksStoreAdminUserRolesServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eBooksStoreAdminUsersServlet</servlet-name>
+        <servlet-class>servlets.eBooksStoreAdminUsersServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eBooksStoreMainServlet</servlet-name>
+        <servlet-class>servlets.eBooksStoreMainServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eBooksStoreUserEBooksServlet</servlet-name>
+        <servlet-class>servlets.eBooksStoreUserEBooksServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>update_users_servlet</servlet-name>
+        <servlet-class>servlets.update_users_servlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>index</servlet-name>
         <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eBooksStoreAdminEBooks</servlet-name>
+        <url-pattern>/eBooksStoreAdminEBooks</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eBooksStoreAdminUserRolesServlet</servlet-name>
+        <url-pattern>/eBooksStoreAdminUserRolesServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eBooksStoreAdminUsersServlet</servlet-name>
+        <url-pattern>/eBooksStoreAdminUsersServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eBooksStoreMainServlet</servlet-name>
+        <url-pattern>/eBooksStoreMainServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eBooksStoreUserEBooksServlet</servlet-name>
+        <url-pattern>/eBooksStoreUserEBooksServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update_users_servlet</servlet-name>
+        <url-pattern>/update_users_servlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
